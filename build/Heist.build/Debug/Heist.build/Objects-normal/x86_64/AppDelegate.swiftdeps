@@ -1,0 +1,823 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AppDelegate"
+provides-nominal:
+- "5Heist11AppDelegateC"
+provides-member:
+- ["5Heist11AppDelegateC", ""]
+provides-dynamic-lookup:
+- "applicationDidFinishLaunching"
+- "applicationWillTerminate"
+depends-top-level:
+- "AppDelegate"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- !private "ContentView"
+- !private "Controller"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "NSApplicationDelegate"
+- !private "NSHostingView"
+- "NSObject"
+- !private "NSRect"
+- "NSWindow"
+- "Notification"
+- !private "StringLiteralType"
+depends-member:
+- !private ["7SwiftUI10AnimatableP", "init"]
+- !private ["5Heist11AppDelegateC", "ContentView"]
+- !private ["5Heist11AppDelegateC", "Controller"]
+- !private ["5Heist11AppDelegateC", "NSHostingView"]
+- !private ["5Heist11AppDelegateC", "NSRect"]
+- ["5Heist11AppDelegateC", "NSWindow"]
+- ["5Heist11AppDelegateC", "Notification"]
+- ["5Heist11AppDelegateC", "application"]
+- ["5Heist11AppDelegateC", "applicationDidBecomeActive"]
+- ["5Heist11AppDelegateC", "applicationDidChangeOcclusionState"]
+- ["5Heist11AppDelegateC", "applicationDidChangeScreenParameters"]
+- ["5Heist11AppDelegateC", "applicationDidFinishLaunching"]
+- ["5Heist11AppDelegateC", "applicationDidHide"]
+- ["5Heist11AppDelegateC", "applicationDidResignActive"]
+- ["5Heist11AppDelegateC", "applicationDidUnhide"]
+- ["5Heist11AppDelegateC", "applicationDidUpdate"]
+- ["5Heist11AppDelegateC", "applicationDockMenu"]
+- ["5Heist11AppDelegateC", "applicationOpenUntitledFile"]
+- ["5Heist11AppDelegateC", "applicationShouldHandleReopen"]
+- ["5Heist11AppDelegateC", "applicationShouldOpenUntitledFile"]
+- ["5Heist11AppDelegateC", "applicationShouldTerminate"]
+- ["5Heist11AppDelegateC", "applicationShouldTerminateAfterLastWindowClosed"]
+- ["5Heist11AppDelegateC", "applicationWillBecomeActive"]
+- ["5Heist11AppDelegateC", "applicationWillFinishLaunching"]
+- ["5Heist11AppDelegateC", "applicationWillHide"]
+- ["5Heist11AppDelegateC", "applicationWillResignActive"]
+- ["5Heist11AppDelegateC", "applicationWillTerminate"]
+- ["5Heist11AppDelegateC", "applicationWillUnhide"]
+- ["5Heist11AppDelegateC", "applicationWillUpdate"]
+- ["5Heist11AppDelegateC", "deinit"]
+- ["5Heist11AppDelegateC", "init"]
+- ["5Heist11AppDelegateC", "window"]
+- !private ["So18NSBackingStoreTypeV", "buffered"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So6CGRectV", "init"]
+- !private ["s7CVarArgP", "ContentView"]
+- !private ["s7CVarArgP", "Controller"]
+- !private ["s7CVarArgP", "NSHostingView"]
+- !private ["s7CVarArgP", "NSRect"]
+- !private ["s7CVarArgP", "NSWindow"]
+- ["s7CVarArgP", ""]
+- ["s7CVarArgP", "application"]
+- ["s7CVarArgP", "applicationDidBecomeActive"]
+- ["s7CVarArgP", "applicationDidChangeOcclusionState"]
+- ["s7CVarArgP", "applicationDidChangeScreenParameters"]
+- ["s7CVarArgP", "applicationDidFinishLaunching"]
+- ["s7CVarArgP", "applicationDidHide"]
+- ["s7CVarArgP", "applicationDidResignActive"]
+- ["s7CVarArgP", "applicationDidUnhide"]
+- ["s7CVarArgP", "applicationDidUpdate"]
+- ["s7CVarArgP", "applicationDockMenu"]
+- ["s7CVarArgP", "applicationOpenUntitledFile"]
+- ["s7CVarArgP", "applicationShouldHandleReopen"]
+- ["s7CVarArgP", "applicationShouldOpenUntitledFile"]
+- ["s7CVarArgP", "applicationShouldTerminate"]
+- ["s7CVarArgP", "applicationShouldTerminateAfterLastWindowClosed"]
+- ["s7CVarArgP", "applicationWillBecomeActive"]
+- ["s7CVarArgP", "applicationWillFinishLaunching"]
+- ["s7CVarArgP", "applicationWillHide"]
+- ["s7CVarArgP", "applicationWillResignActive"]
+- ["s7CVarArgP", "applicationWillTerminate"]
+- ["s7CVarArgP", "applicationWillUnhide"]
+- ["s7CVarArgP", "applicationWillUpdate"]
+- !private ["s7CVarArgP", "center"]
+- !private ["s7CVarArgP", "contentView"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "makeKeyAndOrderFront"]
+- !private ["s7CVarArgP", "setFrameAutosaveName"]
+- !private ["s7CVarArgP", "window"]
+- !private ["5Heist11ContentViewV", "deinit"]
+- !private ["5Heist11ContentViewV", "init"]
+- !private ["5Heist10ControllerC", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "ContentView"]
+- !private ["s28CustomDebugStringConvertibleP", "Controller"]
+- !private ["s28CustomDebugStringConvertibleP", "NSHostingView"]
+- !private ["s28CustomDebugStringConvertibleP", "NSRect"]
+- !private ["s28CustomDebugStringConvertibleP", "NSWindow"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "application"]
+- ["s28CustomDebugStringConvertibleP", "applicationDidBecomeActive"]
+- ["s28CustomDebugStringConvertibleP", "applicationDidChangeOcclusionState"]
+- ["s28CustomDebugStringConvertibleP", "applicationDidChangeScreenParameters"]
+- ["s28CustomDebugStringConvertibleP", "applicationDidFinishLaunching"]
+- ["s28CustomDebugStringConvertibleP", "applicationDidHide"]
+- ["s28CustomDebugStringConvertibleP", "applicationDidResignActive"]
+- ["s28CustomDebugStringConvertibleP", "applicationDidUnhide"]
+- ["s28CustomDebugStringConvertibleP", "applicationDidUpdate"]
+- ["s28CustomDebugStringConvertibleP", "applicationDockMenu"]
+- ["s28CustomDebugStringConvertibleP", "applicationOpenUntitledFile"]
+- ["s28CustomDebugStringConvertibleP", "applicationShouldHandleReopen"]
+- ["s28CustomDebugStringConvertibleP", "applicationShouldOpenUntitledFile"]
+- ["s28CustomDebugStringConvertibleP", "applicationShouldTerminate"]
+- ["s28CustomDebugStringConvertibleP", "applicationShouldTerminateAfterLastWindowClosed"]
+- ["s28CustomDebugStringConvertibleP", "applicationWillBecomeActive"]
+- ["s28CustomDebugStringConvertibleP", "applicationWillFinishLaunching"]
+- ["s28CustomDebugStringConvertibleP", "applicationWillHide"]
+- ["s28CustomDebugStringConvertibleP", "applicationWillResignActive"]
+- ["s28CustomDebugStringConvertibleP", "applicationWillTerminate"]
+- ["s28CustomDebugStringConvertibleP", "applicationWillUnhide"]
+- ["s28CustomDebugStringConvertibleP", "applicationWillUpdate"]
+- !private ["s28CustomDebugStringConvertibleP", "center"]
+- !private ["s28CustomDebugStringConvertibleP", "contentView"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "makeKeyAndOrderFront"]
+- !private ["s28CustomDebugStringConvertibleP", "setFrameAutosaveName"]
+- !private ["s28CustomDebugStringConvertibleP", "window"]
+- !private ["s17CustomReflectableP", "center"]
+- !private ["s17CustomReflectableP", "contentView"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "makeKeyAndOrderFront"]
+- !private ["s17CustomReflectableP", "setFrameAutosaveName"]
+- !private ["s23CustomStringConvertibleP", "ContentView"]
+- !private ["s23CustomStringConvertibleP", "Controller"]
+- !private ["s23CustomStringConvertibleP", "NSHostingView"]
+- !private ["s23CustomStringConvertibleP", "NSRect"]
+- !private ["s23CustomStringConvertibleP", "NSWindow"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "application"]
+- ["s23CustomStringConvertibleP", "applicationDidBecomeActive"]
+- ["s23CustomStringConvertibleP", "applicationDidChangeOcclusionState"]
+- ["s23CustomStringConvertibleP", "applicationDidChangeScreenParameters"]
+- ["s23CustomStringConvertibleP", "applicationDidFinishLaunching"]
+- ["s23CustomStringConvertibleP", "applicationDidHide"]
+- ["s23CustomStringConvertibleP", "applicationDidResignActive"]
+- ["s23CustomStringConvertibleP", "applicationDidUnhide"]
+- ["s23CustomStringConvertibleP", "applicationDidUpdate"]
+- ["s23CustomStringConvertibleP", "applicationDockMenu"]
+- ["s23CustomStringConvertibleP", "applicationOpenUntitledFile"]
+- ["s23CustomStringConvertibleP", "applicationShouldHandleReopen"]
+- ["s23CustomStringConvertibleP", "applicationShouldOpenUntitledFile"]
+- ["s23CustomStringConvertibleP", "applicationShouldTerminate"]
+- ["s23CustomStringConvertibleP", "applicationShouldTerminateAfterLastWindowClosed"]
+- ["s23CustomStringConvertibleP", "applicationWillBecomeActive"]
+- ["s23CustomStringConvertibleP", "applicationWillFinishLaunching"]
+- ["s23CustomStringConvertibleP", "applicationWillHide"]
+- ["s23CustomStringConvertibleP", "applicationWillResignActive"]
+- ["s23CustomStringConvertibleP", "applicationWillTerminate"]
+- ["s23CustomStringConvertibleP", "applicationWillUnhide"]
+- ["s23CustomStringConvertibleP", "applicationWillUpdate"]
+- !private ["s23CustomStringConvertibleP", "center"]
+- !private ["s23CustomStringConvertibleP", "contentView"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "makeKeyAndOrderFront"]
+- !private ["s23CustomStringConvertibleP", "setFrameAutosaveName"]
+- !private ["s23CustomStringConvertibleP", "window"]
+- !private ["Se", "center"]
+- !private ["Se", "contentView"]
+- !private ["Se", "init"]
+- !private ["Se", "makeKeyAndOrderFront"]
+- !private ["Se", "setFrameAutosaveName"]
+- !private ["SE", "center"]
+- !private ["SE", "contentView"]
+- !private ["SE", "init"]
+- !private ["SE", "makeKeyAndOrderFront"]
+- !private ["SE", "setFrameAutosaveName"]
+- !private ["SQ", "ContentView"]
+- !private ["SQ", "Controller"]
+- !private ["SQ", "NSHostingView"]
+- !private ["SQ", "NSRect"]
+- !private ["SQ", "NSWindow"]
+- ["SQ", ""]
+- ["SQ", "application"]
+- ["SQ", "applicationDidBecomeActive"]
+- ["SQ", "applicationDidChangeOcclusionState"]
+- ["SQ", "applicationDidChangeScreenParameters"]
+- ["SQ", "applicationDidFinishLaunching"]
+- ["SQ", "applicationDidHide"]
+- ["SQ", "applicationDidResignActive"]
+- ["SQ", "applicationDidUnhide"]
+- ["SQ", "applicationDidUpdate"]
+- ["SQ", "applicationDockMenu"]
+- ["SQ", "applicationOpenUntitledFile"]
+- ["SQ", "applicationShouldHandleReopen"]
+- ["SQ", "applicationShouldOpenUntitledFile"]
+- ["SQ", "applicationShouldTerminate"]
+- ["SQ", "applicationShouldTerminateAfterLastWindowClosed"]
+- ["SQ", "applicationWillBecomeActive"]
+- ["SQ", "applicationWillFinishLaunching"]
+- ["SQ", "applicationWillHide"]
+- ["SQ", "applicationWillResignActive"]
+- ["SQ", "applicationWillTerminate"]
+- ["SQ", "applicationWillUnhide"]
+- ["SQ", "applicationWillUpdate"]
+- !private ["SQ", "buffered"]
+- !private ["SQ", "center"]
+- !private ["SQ", "closable"]
+- !private ["SQ", "contentView"]
+- !private ["SQ", "fullSizeContentView"]
+- !private ["SQ", "init"]
+- !private ["SQ", "makeKeyAndOrderFront"]
+- !private ["SQ", "miniaturizable"]
+- !private ["SQ", "resizable"]
+- !private ["SQ", "setFrameAutosaveName"]
+- !private ["SQ", "titled"]
+- !private ["SQ", "window"]
+- !private ["s25ExpressibleByArrayLiteralP", "closable"]
+- !private ["s25ExpressibleByArrayLiteralP", "fullSizeContentView"]
+- !private ["s25ExpressibleByArrayLiteralP", "miniaturizable"]
+- !private ["s25ExpressibleByArrayLiteralP", "resizable"]
+- !private ["s25ExpressibleByArrayLiteralP", "titled"]
+- !private ["s23ExpressibleByNilLiteralP", "center"]
+- !private ["s23ExpressibleByNilLiteralP", "contentView"]
+- !private ["s23ExpressibleByNilLiteralP", "makeKeyAndOrderFront"]
+- !private ["s23ExpressibleByNilLiteralP", "setFrameAutosaveName"]
+- !private ["7SwiftUI7GestureP", "center"]
+- !private ["7SwiftUI7GestureP", "contentView"]
+- !private ["7SwiftUI7GestureP", "makeKeyAndOrderFront"]
+- !private ["7SwiftUI7GestureP", "setFrameAutosaveName"]
+- !private ["SH", "ContentView"]
+- !private ["SH", "Controller"]
+- !private ["SH", "NSHostingView"]
+- !private ["SH", "NSRect"]
+- !private ["SH", "NSWindow"]
+- ["SH", ""]
+- ["SH", "application"]
+- ["SH", "applicationDidBecomeActive"]
+- ["SH", "applicationDidChangeOcclusionState"]
+- ["SH", "applicationDidChangeScreenParameters"]
+- ["SH", "applicationDidFinishLaunching"]
+- ["SH", "applicationDidHide"]
+- ["SH", "applicationDidResignActive"]
+- ["SH", "applicationDidUnhide"]
+- ["SH", "applicationDidUpdate"]
+- ["SH", "applicationDockMenu"]
+- ["SH", "applicationOpenUntitledFile"]
+- ["SH", "applicationShouldHandleReopen"]
+- ["SH", "applicationShouldOpenUntitledFile"]
+- ["SH", "applicationShouldTerminate"]
+- ["SH", "applicationShouldTerminateAfterLastWindowClosed"]
+- ["SH", "applicationWillBecomeActive"]
+- ["SH", "applicationWillFinishLaunching"]
+- ["SH", "applicationWillHide"]
+- ["SH", "applicationWillResignActive"]
+- ["SH", "applicationWillTerminate"]
+- ["SH", "applicationWillUnhide"]
+- ["SH", "applicationWillUpdate"]
+- !private ["SH", "buffered"]
+- !private ["SH", "center"]
+- !private ["SH", "contentView"]
+- !private ["SH", "init"]
+- !private ["SH", "makeKeyAndOrderFront"]
+- !private ["SH", "setFrameAutosaveName"]
+- !private ["SH", "window"]
+- !private ["So22NSAccessibilityElementP", "center"]
+- !private ["So22NSAccessibilityElementP", "contentView"]
+- !private ["So22NSAccessibilityElementP", "init"]
+- !private ["So22NSAccessibilityElementP", "makeKeyAndOrderFront"]
+- !private ["So22NSAccessibilityElementP", "setFrameAutosaveName"]
+- !private ["So15NSAccessibilityP", "center"]
+- !private ["So15NSAccessibilityP", "contentView"]
+- !private ["So15NSAccessibilityP", "init"]
+- !private ["So15NSAccessibilityP", "makeKeyAndOrderFront"]
+- !private ["So15NSAccessibilityP", "setFrameAutosaveName"]
+- !private ["So29NSAnimatablePropertyContainerP", "center"]
+- !private ["So29NSAnimatablePropertyContainerP", "contentView"]
+- !private ["So29NSAnimatablePropertyContainerP", "init"]
+- !private ["So29NSAnimatablePropertyContainerP", "makeKeyAndOrderFront"]
+- !private ["So29NSAnimatablePropertyContainerP", "setFrameAutosaveName"]
+- !private ["So25NSAppearanceCustomizationP", "center"]
+- !private ["So25NSAppearanceCustomizationP", "contentView"]
+- !private ["So25NSAppearanceCustomizationP", "init"]
+- !private ["So25NSAppearanceCustomizationP", "makeKeyAndOrderFront"]
+- !private ["So25NSAppearanceCustomizationP", "setFrameAutosaveName"]
+- !private ["So21NSApplicationDelegateP", "ContentView"]
+- !private ["So21NSApplicationDelegateP", "Controller"]
+- !private ["So21NSApplicationDelegateP", "NSHostingView"]
+- !private ["So21NSApplicationDelegateP", "NSRect"]
+- !private ["So21NSApplicationDelegateP", "NSWindow"]
+- ["So21NSApplicationDelegateP", ""]
+- ["So21NSApplicationDelegateP", "application"]
+- ["So21NSApplicationDelegateP", "applicationDidBecomeActive"]
+- ["So21NSApplicationDelegateP", "applicationDidChangeOcclusionState"]
+- ["So21NSApplicationDelegateP", "applicationDidChangeScreenParameters"]
+- ["So21NSApplicationDelegateP", "applicationDidFinishLaunching"]
+- ["So21NSApplicationDelegateP", "applicationDidHide"]
+- ["So21NSApplicationDelegateP", "applicationDidResignActive"]
+- ["So21NSApplicationDelegateP", "applicationDidUnhide"]
+- ["So21NSApplicationDelegateP", "applicationDidUpdate"]
+- ["So21NSApplicationDelegateP", "applicationDockMenu"]
+- ["So21NSApplicationDelegateP", "applicationOpenUntitledFile"]
+- ["So21NSApplicationDelegateP", "applicationShouldHandleReopen"]
+- ["So21NSApplicationDelegateP", "applicationShouldOpenUntitledFile"]
+- ["So21NSApplicationDelegateP", "applicationShouldTerminate"]
+- ["So21NSApplicationDelegateP", "applicationShouldTerminateAfterLastWindowClosed"]
+- ["So21NSApplicationDelegateP", "applicationWillBecomeActive"]
+- ["So21NSApplicationDelegateP", "applicationWillFinishLaunching"]
+- ["So21NSApplicationDelegateP", "applicationWillHide"]
+- ["So21NSApplicationDelegateP", "applicationWillResignActive"]
+- ["So21NSApplicationDelegateP", "applicationWillTerminate"]
+- ["So21NSApplicationDelegateP", "applicationWillUnhide"]
+- ["So21NSApplicationDelegateP", "applicationWillUpdate"]
+- !private ["So21NSApplicationDelegateP", "window"]
+- !private ["So8NSCodingP", "center"]
+- !private ["So8NSCodingP", "contentView"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "makeKeyAndOrderFront"]
+- !private ["So8NSCodingP", "setFrameAutosaveName"]
+- !private ["So21NSDraggingDestinationP", "init"]
+- !private ["So16NSDraggingSourceP", "init"]
+- !private ["7SwiftUI13NSHostingViewC", "init"]
+- !private ["So20NSMenuItemValidationP", "center"]
+- !private ["So20NSMenuItemValidationP", "contentView"]
+- !private ["So20NSMenuItemValidationP", "init"]
+- !private ["So20NSMenuItemValidationP", "makeKeyAndOrderFront"]
+- !private ["So20NSMenuItemValidationP", "setFrameAutosaveName"]
+- !private ["So8NSObjectC", "ContentView"]
+- !private ["So8NSObjectC", "Controller"]
+- !private ["So8NSObjectC", "NSHostingView"]
+- !private ["So8NSObjectC", "NSRect"]
+- ["So8NSObjectC", "NSWindow"]
+- ["So8NSObjectC", "Notification"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "application"]
+- ["So8NSObjectC", "applicationDidBecomeActive"]
+- ["So8NSObjectC", "applicationDidChangeOcclusionState"]
+- ["So8NSObjectC", "applicationDidChangeScreenParameters"]
+- ["So8NSObjectC", "applicationDidFinishLaunching"]
+- ["So8NSObjectC", "applicationDidHide"]
+- ["So8NSObjectC", "applicationDidResignActive"]
+- ["So8NSObjectC", "applicationDidUnhide"]
+- ["So8NSObjectC", "applicationDidUpdate"]
+- ["So8NSObjectC", "applicationDockMenu"]
+- ["So8NSObjectC", "applicationOpenUntitledFile"]
+- ["So8NSObjectC", "applicationShouldHandleReopen"]
+- ["So8NSObjectC", "applicationShouldOpenUntitledFile"]
+- ["So8NSObjectC", "applicationShouldTerminate"]
+- ["So8NSObjectC", "applicationShouldTerminateAfterLastWindowClosed"]
+- ["So8NSObjectC", "applicationWillBecomeActive"]
+- ["So8NSObjectC", "applicationWillFinishLaunching"]
+- ["So8NSObjectC", "applicationWillHide"]
+- ["So8NSObjectC", "applicationWillResignActive"]
+- ["So8NSObjectC", "applicationWillTerminate"]
+- ["So8NSObjectC", "applicationWillUnhide"]
+- ["So8NSObjectC", "applicationWillUpdate"]
+- !private ["So8NSObjectC", "center"]
+- !private ["So8NSObjectC", "contentView"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "makeKeyAndOrderFront"]
+- !private ["So8NSObjectC", "setFrameAutosaveName"]
+- ["So8NSObjectC", "window"]
+- !private ["So8NSObjectP", "ContentView"]
+- !private ["So8NSObjectP", "Controller"]
+- !private ["So8NSObjectP", "NSHostingView"]
+- !private ["So8NSObjectP", "NSRect"]
+- !private ["So8NSObjectP", "NSWindow"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "application"]
+- ["So8NSObjectP", "applicationDidBecomeActive"]
+- ["So8NSObjectP", "applicationDidChangeOcclusionState"]
+- ["So8NSObjectP", "applicationDidChangeScreenParameters"]
+- ["So8NSObjectP", "applicationDidFinishLaunching"]
+- ["So8NSObjectP", "applicationDidHide"]
+- ["So8NSObjectP", "applicationDidResignActive"]
+- ["So8NSObjectP", "applicationDidUnhide"]
+- ["So8NSObjectP", "applicationDidUpdate"]
+- ["So8NSObjectP", "applicationDockMenu"]
+- ["So8NSObjectP", "applicationOpenUntitledFile"]
+- ["So8NSObjectP", "applicationShouldHandleReopen"]
+- ["So8NSObjectP", "applicationShouldOpenUntitledFile"]
+- ["So8NSObjectP", "applicationShouldTerminate"]
+- ["So8NSObjectP", "applicationShouldTerminateAfterLastWindowClosed"]
+- ["So8NSObjectP", "applicationWillBecomeActive"]
+- ["So8NSObjectP", "applicationWillFinishLaunching"]
+- ["So8NSObjectP", "applicationWillHide"]
+- ["So8NSObjectP", "applicationWillResignActive"]
+- ["So8NSObjectP", "applicationWillTerminate"]
+- ["So8NSObjectP", "applicationWillUnhide"]
+- ["So8NSObjectP", "applicationWillUpdate"]
+- !private ["So8NSObjectP", "center"]
+- !private ["So8NSObjectP", "contentView"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "makeKeyAndOrderFront"]
+- !private ["So8NSObjectP", "setFrameAutosaveName"]
+- !private ["So8NSObjectP", "window"]
+- !private ["So11NSResponderC", "center"]
+- !private ["So11NSResponderC", "contentView"]
+- !private ["So11NSResponderC", "init"]
+- !private ["So11NSResponderC", "makeKeyAndOrderFront"]
+- !private ["So11NSResponderC", "setFrameAutosaveName"]
+- !private ["So30NSStandardKeyBindingRespondingP", "center"]
+- !private ["So30NSStandardKeyBindingRespondingP", "contentView"]
+- !private ["So30NSStandardKeyBindingRespondingP", "init"]
+- !private ["So30NSStandardKeyBindingRespondingP", "makeKeyAndOrderFront"]
+- !private ["So30NSStandardKeyBindingRespondingP", "setFrameAutosaveName"]
+- !private ["So18NSTouchBarProviderP", "center"]
+- !private ["So18NSTouchBarProviderP", "contentView"]
+- !private ["So18NSTouchBarProviderP", "init"]
+- !private ["So18NSTouchBarProviderP", "makeKeyAndOrderFront"]
+- !private ["So18NSTouchBarProviderP", "setFrameAutosaveName"]
+- !private ["So23NSUserActivityRestoringP", "center"]
+- !private ["So23NSUserActivityRestoringP", "contentView"]
+- !private ["So23NSUserActivityRestoringP", "init"]
+- !private ["So23NSUserActivityRestoringP", "makeKeyAndOrderFront"]
+- !private ["So23NSUserActivityRestoringP", "setFrameAutosaveName"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "center"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "contentView"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "init"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "makeKeyAndOrderFront"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "setFrameAutosaveName"]
+- !private ["So26NSUserInterfaceValidationsP", "center"]
+- !private ["So26NSUserInterfaceValidationsP", "contentView"]
+- !private ["So26NSUserInterfaceValidationsP", "init"]
+- !private ["So26NSUserInterfaceValidationsP", "makeKeyAndOrderFront"]
+- !private ["So26NSUserInterfaceValidationsP", "setFrameAutosaveName"]
+- !private ["So8NSWindowC", "center"]
+- !private ["So8NSWindowC", "contentView"]
+- !private ["So8NSWindowC", "init"]
+- !private ["So8NSWindowC", "makeKeyAndOrderFront"]
+- !private ["So8NSWindowC", "setFrameAutosaveName"]
+- !private ["s9OptionSetP", "closable"]
+- !private ["s9OptionSetP", "fullSizeContentView"]
+- !private ["s9OptionSetP", "miniaturizable"]
+- !private ["s9OptionSetP", "resizable"]
+- !private ["s9OptionSetP", "titled"]
+- !private ["Sq", "center"]
+- !private ["Sq", "contentView"]
+- !private ["Sq", "makeKeyAndOrderFront"]
+- !private ["Sq", "setFrameAutosaveName"]
+- !private ["SY", "buffered"]
+- !private ["SY", "closable"]
+- !private ["SY", "fullSizeContentView"]
+- !private ["SY", "miniaturizable"]
+- !private ["SY", "resizable"]
+- !private ["SY", "titled"]
+- !private ["s10SetAlgebraP", "closable"]
+- !private ["s10SetAlgebraP", "fullSizeContentView"]
+- !private ["s10SetAlgebraP", "miniaturizable"]
+- !private ["s10SetAlgebraP", "resizable"]
+- !private ["s10SetAlgebraP", "titled"]
+- !private ["So17NSWindowStyleMaskV", "closable"]
+- !private ["So17NSWindowStyleMaskV", "fullSizeContentView"]
+- !private ["So17NSWindowStyleMaskV", "miniaturizable"]
+- !private ["So17NSWindowStyleMaskV", "resizable"]
+- !private ["So17NSWindowStyleMaskV", "titled"]
+- !private ["7SwiftUI4ViewP", "center"]
+- !private ["7SwiftUI4ViewP", "contentView"]
+- !private ["7SwiftUI4ViewP", "init"]
+- !private ["7SwiftUI4ViewP", "makeKeyAndOrderFront"]
+- !private ["7SwiftUI4ViewP", "setFrameAutosaveName"]
+- !private ["7SwiftUI14_BenchmarkHostP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ContentView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Controller"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSHostingView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSRect"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSWindow"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- ["10Foundation27_KeyValueCodingAndObservingP", "application"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationDidBecomeActive"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationDidChangeOcclusionState"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationDidChangeScreenParameters"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationDidFinishLaunching"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationDidHide"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationDidResignActive"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationDidUnhide"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationDidUpdate"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationDockMenu"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationOpenUntitledFile"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationShouldHandleReopen"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationShouldOpenUntitledFile"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationShouldTerminate"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationShouldTerminateAfterLastWindowClosed"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillBecomeActive"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillFinishLaunching"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillHide"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillResignActive"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillTerminate"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillUnhide"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillUpdate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "center"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "contentView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "makeKeyAndOrderFront"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setFrameAutosaveName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "window"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ContentView"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Controller"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSHostingView"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSRect"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSWindow"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "application"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "applicationDidBecomeActive"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "applicationDidChangeOcclusionState"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "applicationDidChangeScreenParameters"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "applicationDidFinishLaunching"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "applicationDidHide"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "applicationDidResignActive"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "applicationDidUnhide"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "applicationDidUpdate"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "applicationDockMenu"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "applicationOpenUntitledFile"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "applicationShouldHandleReopen"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "applicationShouldOpenUntitledFile"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "applicationShouldTerminate"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "applicationShouldTerminateAfterLastWindowClosed"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "applicationWillBecomeActive"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "applicationWillFinishLaunching"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "applicationWillHide"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "applicationWillResignActive"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "applicationWillTerminate"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "applicationWillUnhide"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "applicationWillUpdate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "center"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "contentView"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "makeKeyAndOrderFront"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setFrameAutosaveName"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "window"]
+- !private ["s21_ObjectiveCBridgeableP", "center"]
+- !private ["s21_ObjectiveCBridgeableP", "contentView"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "makeKeyAndOrderFront"]
+- !private ["s21_ObjectiveCBridgeableP", "setFrameAutosaveName"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "init"]
+depends-nominal:
+- !private "7SwiftUI10AnimatableP"
+- "5Heist11AppDelegateC"
+- !private "So18NSBackingStoreTypeV"
+- !private "So15CALayerDelegateP"
+- !private "So6CGRectV"
+- "s7CVarArgP"
+- !private "5Heist11ContentViewV"
+- !private "5Heist10ControllerC"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "7SwiftUI7GestureP"
+- "SH"
+- !private "So22NSAccessibilityElementP"
+- !private "So15NSAccessibilityP"
+- !private "So29NSAnimatablePropertyContainerP"
+- !private "So25NSAppearanceCustomizationP"
+- "So21NSApplicationDelegateP"
+- !private "So8NSCodingP"
+- !private "So21NSDraggingDestinationP"
+- !private "So16NSDraggingSourceP"
+- !private "7SwiftUI13NSHostingViewC"
+- !private "So20NSMenuItemValidationP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So11NSResponderC"
+- !private "So30NSStandardKeyBindingRespondingP"
+- !private "So18NSTouchBarProviderP"
+- !private "So23NSUserActivityRestoringP"
+- !private "So33NSUserInterfaceItemIdentificationP"
+- !private "So26NSUserInterfaceValidationsP"
+- !private "So8NSWindowC"
+- !private "s9OptionSetP"
+- !private "Sq"
+- !private "SY"
+- !private "s10SetAlgebraP"
+- !private "So17NSWindowStyleMaskV"
+- !private "7SwiftUI4ViewP"
+- !private "7SwiftUI14_BenchmarkHostP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/XPC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/CoreMIDI.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/SwiftUI.framework/Modules/SwiftUI.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/CoreMedia.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/CoreData.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/simd.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/Accelerate.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/AVFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/CoreAudio.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/os.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/IOKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/AppKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-macos.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreMIDI.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftUI.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKitUI.framework/Modules/AudioKitUI.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreMedia.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/simd.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Accelerate.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Metal.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/AVFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreAudio.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/os.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Modules/AudioKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/AppKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKitUI.framework/Headers/AudioKitUI.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/EZAudioFFT.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/EZAudioFloatData.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/EZAudioDevice.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/EZAudioFile.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKSamplerMetronome.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKSequencerEngine.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKMicrophoneTrackerEngine.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKTimeline.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/EZMicrophone.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/soundpipe.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKAudioUnitBase.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKGeneratorAudioUnitBase.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKSporthStack.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKitUI.framework/Headers/EZAudioDisplayLink.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/soundpipeextension.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKParameterAutomation.h"
+- "/Users/rjm/Documents/Heist/Heist/Vendor/common.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/EZAudio.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKTimelineTap.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKRenderTap.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKLazyTap.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKInterop.h"
+- "/Users/rjm/Documents/Heist/Heist/Heist-Bridging-Header.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/EZRecorder.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/TPCircularBuffer.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKPresetManager.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/ExceptionCatcher.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/EZAudioFileMarker.h"
+- "/Users/rjm/Documents/Heist/Heist/DMX/DMXController.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/vocwrapper.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/EZAudioFloatConverter.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/EZAudioPlayer.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/EZAudioUtilities.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKSampler_Typedefs.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKModulatedDelay_Typedefs.h"
+- "/Users/rjm/Documents/Heist/Heist/Vendor/packets.h"
+- "/Users/rjm/Documents/Heist/Heist/Vendor/artnet.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKitUI.framework/Headers/AudioKitUI-Swift.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AudioKit-Swift.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AudioKit.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/TPCircularBuffer+Unit.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AudioEngineUnit.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKAudioUnit.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/BufferedAudioUnit.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKWaveTableAudioUnit.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKFilterSynthAudioUnit.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKOscillatorFilterSynthAudioUnit.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKFMOscillatorFilterSynthAudioUnit.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKPWMOscillatorFilterSynthAudioUnit.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKMorphingOscillatorFilterSynthAudioUnit.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKPhaseDistortionOscillatorFilterSynthAudioUnit.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKBankAudioUnit.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKOscillatorBankAudioUnit.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKFMOscillatorBankAudioUnit.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKPWMOscillatorBankAudioUnit.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKMorphingOscillatorBankAudioUnit.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKPhaseDistortionOscillatorBankAudioUnit.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKMandolinAudioUnit.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKBalancerAudioUnit.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKOfflineRenderAudioUnit.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKAmplitudeTrackerAudioUnit.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKFrequencyTrackerAudioUnit.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKDiskStreamerAudioUnit.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKTesterAudioUnit.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKRhinoGuitarProcessorAudioUnit.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKDynaRageCompressorAudioUnit.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKOperationGeneratorAudioUnit.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKOperationEffectAudioUnit.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKCallbackInstrumentAudioUnit.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKitUI.framework/Headers/EZPlot.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKitUI.framework/Headers/EZAudioPlot.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/TPCircularBuffer+AudioBufferList.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/EZOutput.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/dr_wav.h"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKitUI.framework/Modules/module.modulemap"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Modules/module.modulemap"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKZitaReverbDSP.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKFlatFrequencyResponseReverbDSP.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKChowningReverbDSP.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKCostelloReverbDSP.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKCombFilterReverbDSP.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKAmplitudeEnvelopeDSP.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKWhiteNoiseDSP.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKPinkNoiseDSP.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKBrownianNoiseDSP.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKFluteDSP.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKPluckedStringDSP.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKAutoWahDSP.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKSynthDSP.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKDCBlockDSP.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKTanhDistortionDSP.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKConvolutionDSP.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKTremoloDSP.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKRhodesPianoDSP.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKDripDSP.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKMetalBarDSP.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKFaderDSP.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKMoogLadderDSP.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKPhaseLockedVocoderDSP.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKBitCrusherDSP.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKShakerDSP.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKSamplerDSP.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKPannerDSP.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKAutoPannerDSP.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKClipperDSP.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKPhaserDSP.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKPitchShifterDSP.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKStereoFieldLimiterDSP.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKRolandTB303FilterDSP.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKModalResonanceFilterDSP.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKToneFilterDSP.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKBandPassButterworthFilterDSP.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKHighPassButterworthFilterDSP.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKLowPassButterworthFilterDSP.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKBandRejectButterworthFilterDSP.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKEqualizerFilterDSP.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKHighShelfParametricEqualizerFilterDSP.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKLowShelfParametricEqualizerFilterDSP.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKPeakingParametricEqualizerFilterDSP.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKKorgLowPassFilterDSP.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKThreePoleLowpassFilterDSP.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKFormantFilterDSP.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKResonantFilterDSP.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKToneComplementFilterDSP.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKBoosterDSP.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKDynamicRangeCompressorDSP.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKOscillatorDSP.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKFMOscillatorDSP.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKPWMOscillatorDSP.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKMorphingOscillatorDSP.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKPhaseDistortionOscillatorDSP.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKStringResonatorDSP.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKTubularBellsDSP.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKVocalTractDSP.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKClarinetDSP.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKModulatedDelayDSP.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKVariableDelayDSP.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKStereoDelayDSP.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKDSPBase.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKSoundpipeDSPBase.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKParameterRampBase.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKCoreSynth.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/DSPKernel.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKDSPKernel.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKFilterSynthDSPKernel.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKBankDSPKernel.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKRhinoGuitarProcessorDSPKernel.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKDynaRageCompressorDSPKernel.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKSoundpipeKernel.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKParameterRamp.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKExponentialParameterRamp.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKLinearParameterRamp.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKCoreSampler.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/ParameterRamper.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/BufferedAudioBus.hpp"
+- "/Users/rjm/Documents/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKModulatedDelay.hpp"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Accelerate.framework/Headers/Accelerate.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "b118a67a125ada9421bc9b39d34352e8"

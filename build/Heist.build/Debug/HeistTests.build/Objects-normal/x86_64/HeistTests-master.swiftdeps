@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "1cb78dc868b0857ef658b7ad2bce3484"
+build_time: [1585482264, 936793000]
+inputs:
+  "/Users/rjm/Documents/HeistWorkspace/Heist/HeistTests/HeistTests.swift": [1585058103, 557543043]
+  "/Users/rjm/Documents/HeistWorkspace/Heist/HeistTests/ControllerTests.swift": [1585482262, 492238930]
+  "/Users/rjm/Documents/HeistWorkspace/Heist/HeistTests/FixtureTest.swift": [1585230257, 963975900]
+  "/Users/rjm/Documents/HeistWorkspace/Heist/HeistTests/SceneTest.swift": [1585060619, 306440131]
+  "/Users/rjm/Documents/HeistWorkspace/Heist/HeistTests/IOTests.swift": [1585404501, 873576355]

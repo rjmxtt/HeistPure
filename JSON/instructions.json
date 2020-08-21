@@ -1,0 +1,44 @@
+{ "lists":
+[
+    {
+        "list":
+        [
+            {"step":
+                [
+                    {"tagType":"parcan","channel":"red","value":255}
+                ]
+            },
+            {"step":
+                [
+                    {"tagType":"parcan","channel":"red","value":0}
+                ]
+            }
+        ]
+    },
+    {
+        "list":
+        [
+            {"step":
+                [
+                    {"tagType":"parcan","channel":"green","value":-1}
+                ]
+            },
+            {"step":
+                [
+                    {"tagType":"parcan","channel":"green","value":-1}
+                ]
+            }
+        ]
+    },
+    {
+        "list":
+        [
+            {"step":
+                [
+                    {"tagType":"parcan","channel":"red","value":-2}
+                ]
+            }
+        ]
+    }
+]
+}

@@ -1,0 +1,485 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Scene"
+provides-nominal:
+- "5Heist5SceneC"
+provides-member:
+- ["5Heist5SceneC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+"
+- !private "+="
+- !private "-"
+- !private "..."
+- !private "=="
+- !private ">"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Fixture"
+- "Fixtures"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "LinkedList"
+- "Node"
+- "Pair"
+- "Scene"
+- "String"
+- "StringLiteralType"
+- "Tag"
+- "UInt8"
+- "Void"
+- !private "print"
+depends-member:
+- !private ["10Accelerate0A6BufferP", "append"]
+- !private ["10Accelerate0A6BufferP", "count"]
+- !private ["10Accelerate0A6BufferP", "init"]
+- !private ["10Accelerate0A6BufferP", "map"]
+- !private ["10Accelerate0A6BufferP", "subscript"]
+- !private ["10Accelerate0A13MutableBufferP", "append"]
+- !private ["10Accelerate0A13MutableBufferP", "count"]
+- !private ["10Accelerate0A13MutableBufferP", "init"]
+- !private ["10Accelerate0A13MutableBufferP", "map"]
+- !private ["10Accelerate0A13MutableBufferP", "subscript"]
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "init"]
+- !private ["Sa", "map"]
+- !private ["Sa", "subscript"]
+- !private ["SK", "append"]
+- !private ["SK", "count"]
+- !private ["SK", "init"]
+- !private ["SK", "map"]
+- !private ["SK", "subscript"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", "append"]
+- !private ["Sl", "count"]
+- !private ["Sl", "init"]
+- !private ["Sl", "map"]
+- !private ["Sl", "subscript"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "map"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["Se", "append"]
+- !private ["Se", "count"]
+- !private ["Se", "giveArray"]
+- !private ["Se", "init"]
+- !private ["Se", "map"]
+- !private ["Se", "send"]
+- !private ["Se", "subscript"]
+- !private ["SE", "append"]
+- !private ["SE", "count"]
+- !private ["SE", "giveArray"]
+- !private ["SE", "init"]
+- !private ["SE", "map"]
+- !private ["SE", "send"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "append"]
+- !private ["SQ", "count"]
+- !private ["SQ", "init"]
+- !private ["SQ", "map"]
+- !private ["SQ", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["5Heist7FixtureC", "send"]
+- !private ["5Heist8FixturesV", "giveArray"]
+- !private ["SH", "append"]
+- !private ["SH", "count"]
+- !private ["SH", "init"]
+- !private ["SH", "map"]
+- !private ["SH", "subscript"]
+- !private ["5Heist10LinkedListC", "add"]
+- !private ["5Heist10LinkedListC", "first"]
+- !private ["5Heist10LinkedListC", "getSize"]
+- !private ["5Heist10LinkedListC", "head"]
+- !private ["5Heist10LinkedListC", "init"]
+- !private ["SM", "append"]
+- !private ["SM", "count"]
+- !private ["SM", "init"]
+- !private ["SM", "map"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "map"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["5Heist4NodeC", "next"]
+- !private ["5Heist4NodeC", "value"]
+- !private ["8AudioKit10OccupiableP", "append"]
+- !private ["8AudioKit10OccupiableP", "count"]
+- !private ["8AudioKit10OccupiableP", "init"]
+- !private ["8AudioKit10OccupiableP", "map"]
+- !private ["8AudioKit10OccupiableP", "subscript"]
+- !private ["5Heist4PairC", "fst"]
+- !private ["5Heist4PairC", "snd"]
+- !private ["Sk", "append"]
+- !private ["Sk", "count"]
+- !private ["Sk", "init"]
+- !private ["Sk", "map"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "append"]
+- !private ["Sm", "count"]
+- !private ["Sm", "init"]
+- !private ["Sm", "map"]
+- !private ["Sm", "subscript"]
+- !private ["5Heist5SceneC", "Array"]
+- ["5Heist5SceneC", "Fixture"]
+- ["5Heist5SceneC", "Fixtures"]
+- ["5Heist5SceneC", "Int"]
+- ["5Heist5SceneC", "LinkedList"]
+- ["5Heist5SceneC", "Node"]
+- ["5Heist5SceneC", "Pair"]
+- ["5Heist5SceneC", "String"]
+- ["5Heist5SceneC", "Tag"]
+- ["5Heist5SceneC", "UInt8"]
+- ["5Heist5SceneC", "Void"]
+- ["5Heist5SceneC", "addInstruction"]
+- ["5Heist5SceneC", "addInstructionArr"]
+- ["5Heist5SceneC", "addToFixtureArray"]
+- ["5Heist5SceneC", "constructFixArr"]
+- ["5Heist5SceneC", "deinit"]
+- !private ["5Heist5SceneC", "description"]
+- ["5Heist5SceneC", "fixtureArray"]
+- ["5Heist5SceneC", "getDescription"]
+- ["5Heist5SceneC", "getFixtureArray"]
+- ["5Heist5SceneC", "getID"]
+- ["5Heist5SceneC", "getInstructions"]
+- ["5Heist5SceneC", "incrB"]
+- ["5Heist5SceneC", "init"]
+- ["5Heist5SceneC", "instructions"]
+- ["5Heist5SceneC", "package"]
+- ["5Heist5SceneC", "pointer"]
+- ["5Heist5SceneC", "primeScene"]
+- !private ["5Heist5SceneC", "print"]
+- !private ["5Heist5SceneC", "sceneID"]
+- !private ["5Heist5SceneC", "sceneZeros"]
+- ["5Heist5SceneC", "send"]
+- ["5Heist5SceneC", "setDescription"]
+- ["5Heist5SceneC", "step"]
+- !private ["ST", "append"]
+- !private ["ST", "count"]
+- !private ["ST", "init"]
+- !private ["ST", "map"]
+- !private ["ST", "subscript"]
+- !private ["5Heist3TagO", "deinit"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "10Accelerate0A6BufferP"
+- !private "10Accelerate0A13MutableBufferP"
+- !private "Sa"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "5Heist7FixtureC"
+- !private "5Heist8FixturesV"
+- !private "SH"
+- !private "5Heist10LinkedListC"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "5Heist4NodeC"
+- !private "8AudioKit10OccupiableP"
+- !private "5Heist4PairC"
+- !private "Sk"
+- !private "Sm"
+- "5Heist5SceneC"
+- !private "ST"
+- !private "5Heist3TagO"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/XPC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/CoreMIDI.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/SwiftUI.framework/Modules/SwiftUI.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/CoreMedia.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/CoreData.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/simd.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/Accelerate.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/AVFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/CoreAudio.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/os.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/IOKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/AppKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-macos.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreMIDI.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftUI.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKitUI.framework/Modules/AudioKitUI.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreMedia.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/simd.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Accelerate.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Metal.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/AVFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreAudio.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/os.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Modules/AudioKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/AppKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKitUI.framework/Headers/AudioKitUI.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/EZAudioFFT.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/EZAudioFloatData.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/EZAudioDevice.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/EZAudioFile.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKSamplerMetronome.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKSequencerEngine.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKMicrophoneTrackerEngine.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKTimeline.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/EZMicrophone.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/soundpipe.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKAudioUnitBase.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKGeneratorAudioUnitBase.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKSporthStack.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKitUI.framework/Headers/EZAudioDisplayLink.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/soundpipeextension.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKParameterAutomation.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/Vendor/common.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/EZAudio.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKTimelineTap.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKRenderTap.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKLazyTap.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKInterop.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/Heist-Bridging-Header.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/EZRecorder.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/TPCircularBuffer.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKPresetManager.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/ExceptionCatcher.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/EZAudioFileMarker.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/DMX/DMXController.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/vocwrapper.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/EZAudioFloatConverter.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/EZAudioPlayer.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/EZAudioUtilities.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKSampler_Typedefs.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKModulatedDelay_Typedefs.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/Vendor/packets.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/Vendor/artnet.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKitUI.framework/Headers/AudioKitUI-Swift.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AudioKit-Swift.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AudioKit.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/TPCircularBuffer+Unit.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AudioEngineUnit.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKAudioUnit.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/BufferedAudioUnit.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKWaveTableAudioUnit.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKFilterSynthAudioUnit.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKOscillatorFilterSynthAudioUnit.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKFMOscillatorFilterSynthAudioUnit.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKPWMOscillatorFilterSynthAudioUnit.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKMorphingOscillatorFilterSynthAudioUnit.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKPhaseDistortionOscillatorFilterSynthAudioUnit.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKBankAudioUnit.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKOscillatorBankAudioUnit.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKFMOscillatorBankAudioUnit.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKPWMOscillatorBankAudioUnit.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKMorphingOscillatorBankAudioUnit.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKPhaseDistortionOscillatorBankAudioUnit.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKMandolinAudioUnit.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKBalancerAudioUnit.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKOfflineRenderAudioUnit.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKAmplitudeTrackerAudioUnit.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKFrequencyTrackerAudioUnit.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKDiskStreamerAudioUnit.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKTesterAudioUnit.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKRhinoGuitarProcessorAudioUnit.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKDynaRageCompressorAudioUnit.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKOperationGeneratorAudioUnit.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKOperationEffectAudioUnit.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKCallbackInstrumentAudioUnit.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKitUI.framework/Headers/EZPlot.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKitUI.framework/Headers/EZAudioPlot.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/TPCircularBuffer+AudioBufferList.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/EZOutput.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/dr_wav.h"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKitUI.framework/Modules/module.modulemap"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Modules/module.modulemap"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKZitaReverbDSP.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKFlatFrequencyResponseReverbDSP.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKChowningReverbDSP.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKCostelloReverbDSP.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKCombFilterReverbDSP.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKAmplitudeEnvelopeDSP.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKWhiteNoiseDSP.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKPinkNoiseDSP.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKBrownianNoiseDSP.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKFluteDSP.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKPluckedStringDSP.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKAutoWahDSP.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKSynthDSP.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKDCBlockDSP.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKTanhDistortionDSP.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKConvolutionDSP.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKTremoloDSP.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKRhodesPianoDSP.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKDripDSP.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKMetalBarDSP.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKFaderDSP.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKMoogLadderDSP.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKPhaseLockedVocoderDSP.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKBitCrusherDSP.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKShakerDSP.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKSamplerDSP.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKPannerDSP.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKAutoPannerDSP.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKClipperDSP.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKPhaserDSP.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKPitchShifterDSP.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKStereoFieldLimiterDSP.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKRolandTB303FilterDSP.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKModalResonanceFilterDSP.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKToneFilterDSP.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKBandPassButterworthFilterDSP.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKHighPassButterworthFilterDSP.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKLowPassButterworthFilterDSP.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKBandRejectButterworthFilterDSP.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKEqualizerFilterDSP.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKHighShelfParametricEqualizerFilterDSP.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKLowShelfParametricEqualizerFilterDSP.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKPeakingParametricEqualizerFilterDSP.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKKorgLowPassFilterDSP.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKThreePoleLowpassFilterDSP.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKFormantFilterDSP.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKResonantFilterDSP.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKToneComplementFilterDSP.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKBoosterDSP.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKDynamicRangeCompressorDSP.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKOscillatorDSP.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKFMOscillatorDSP.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKPWMOscillatorDSP.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKMorphingOscillatorDSP.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKPhaseDistortionOscillatorDSP.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKStringResonatorDSP.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKTubularBellsDSP.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKVocalTractDSP.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKClarinetDSP.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKModulatedDelayDSP.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKVariableDelayDSP.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKStereoDelayDSP.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKDSPBase.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKSoundpipeDSPBase.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKParameterRampBase.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKCoreSynth.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/DSPKernel.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKDSPKernel.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKFilterSynthDSPKernel.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKBankDSPKernel.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKRhinoGuitarProcessorDSPKernel.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKDynaRageCompressorDSPKernel.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKSoundpipeKernel.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKParameterRamp.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKExponentialParameterRamp.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKLinearParameterRamp.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKCoreSampler.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/ParameterRamper.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/BufferedAudioBus.hpp"
+- "/Users/rjm/Documents/HeistWorkspace/Heist/Heist/AudioKit-macOS/AudioKit.framework/Headers/AKModulatedDelay.hpp"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Accelerate.framework/Headers/Accelerate.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "0a2859ead9615fd3dcadb0b3d429bd8d"
